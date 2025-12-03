@@ -1,0 +1,32 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Composer
+/vendor/
+/composer.lock
+
+# Adianti Framework
+tmp/*
+cache/*
+log/*
+app/output/*
+/app/config/*
+/app/config/
+
+# Arquivos de backup
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Uploads de usuários (se não quiser versionar)
+app/files/
+
+.env
